@@ -1,2 +1,2 @@
-# InfiniteColorGenerator-React
+# RandomNumberGenerator-React
 Created with CodeSandbox

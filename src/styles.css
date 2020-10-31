@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+
+body {
+  background: #151515;
+}
+
+.App {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  display: grid;
+  margin: 10px;
+  color: white;
+  place-items: center;
+  border: 1px solid white;
+  animation: 800ms fade ease-in-out;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
