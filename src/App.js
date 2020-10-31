@@ -8,7 +8,7 @@ export default function App() {
     const interval = setInterval(() => {
       var randomColor = Math.floor(Math.random() * 16777215).toString(16);
       setBoxes([...Boxes, { bg: "#" + randomColor }]);
-    }, 1000);
+    }, 300);
     return () => clearInterval(interval);
   }, [Boxes]);
 
